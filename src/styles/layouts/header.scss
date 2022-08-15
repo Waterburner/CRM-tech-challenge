@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid rgba(46, 41, 51, 0.08);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 0 10px;
+
+  @media (max-width: 575px) {
+    justify-content: center;
+  }
+}
